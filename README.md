@@ -1,9 +1,10 @@
 
-This section demonstrates how to establish a connection to a local MySQL database and perform a simple data insertion using JDBC.
+This section provides a simple example of how to connect to a local MySQL database and manage basic database operations using JDBC, including data retrieval and connection handling.
+
 </br>
 </br>
 
-# ☕ Java JDBC + MySQL Example
+# ☕ Java JDBC + MySQL
 
 This project demonstrates how to connect a Java application to a MySQL database using **JDBC**.
 
@@ -30,32 +31,6 @@ String username = "root";
 String password = "your_password";
 ```
 
-## 📦 Dependência no pom.xml
-``` pom.xml
-<dependencies>
-    <!-- MySQL JDBC -->
-    <dependency>
-        <groupId>mysql</groupId>
-        <artifactId>mysql-connector-java</artifactId>
-        <version>8.0.29</version> <!-- Use latest version -->
-    </dependency>
-</dependencies>
-```
-🔄 You can update to the latest version via Maven Repository.
-
-## 🗂 Project Structure
-```
-JavaComunicationDatabase/
-├── src/
-│   └── main/
-│       └── java/
-│           └── org/
-│               └── example/
-│                   └── Main.java
-├── pom.xml
-└── README.md
-```
-
 🧑‍💻 Author
 Developed by Luan Pierre – a passionate software engineer focused on Java, backend development, and databases.
 
@@ -67,8 +42,9 @@ Developed by Luan Pierre – a passionate software engineer focused on Java, bac
 - [Maven Central Repository](https://search.maven.org/)
 - [MySQL Server Installation Guide](https://dev.mysql.com/doc/refman/8.0/en/installing.html)
 
+## 📂 File Organization
+The files in this project are separated for better understanding and organization.
 </br>
-</br>
-
+⚙️ However, they can be combined into a single file to improve execution performance and code optimization, if needed.
 
 
