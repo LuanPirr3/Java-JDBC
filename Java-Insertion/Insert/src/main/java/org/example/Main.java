@@ -9,7 +9,7 @@ public class Main {
         // replace by your database
         String url = "jdbc:mysql://localhost:3306/database";
         String username = "root";
-        String password = "sua senha";
+        String password = " password";
 
         // make your inquiry here
         String query = "INSERT INTO cliente (NOME, SEXO, EMAIL, CPF) VALUES('JONAS','M','JONAS.TESTE@YAHOO.COM','12415654')";

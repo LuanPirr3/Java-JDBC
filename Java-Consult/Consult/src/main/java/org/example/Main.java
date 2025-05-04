@@ -7,9 +7,9 @@ import java.sql.*;
 public class Main {
     public static void main(String[] args) throws  Exception{
         // data connect database
-        String url = "jdbc:mysql://localhost:3306/curso";
+        String url = "jdbc:mysql://localhost:3306/your database";
         String username = "root";
-        String password = "Lu4n.Dev.Engs0ft2024";
+        String password = "password";
 
         // search database
         String query = "select NOME, CPF, EMAIL FROM cliente;";
@@ -27,6 +27,7 @@ public class Main {
         // execute the query
         ResultSet rs = st.executeQuery(query);
 
+        // this while will be your query,
         while (rs.next()){
             String name = rs.getString("NOME");
             String cpf = rs.getString("CPF");
